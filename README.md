@@ -1,6 +1,6 @@
 # omni freertos
 
-[![Version](https://img.shields.io/github/v/release/MorroGeek/omni_freertos)](https://github.com/MorroGeek/omni/releases/latest)
+[![Version](https://img.shields.io/github/v/release/MorroGeek/omni_freertos)](https://github.com/MorroGeek/omni_freertos/releases/latest)
 
 
 ## Introduction
