@@ -29,7 +29,7 @@ set(FREERTOS_CFG_TARGET_FILE ${OMNI_RTOS_CFG_DIR}/FreeRTOSConfig.h)
 omni_add_configure_file(${FREERTOS_CFG_SOURCE_FILE} ${FREERTOS_CFG_TARGET_FILE})
 
 # Set the FreeRTOS configuration file directory
-set(FREERTOS_CONFIG_FILE_DIRECTORY ${OMNI_RTOS_CFG_DIR} CACHE STRING "FreeRTOS config file")
+set(FREERTOS_CONFIG_FILE_DIRECTORY ${OMNI_RTOS_CFG_DIR} CACHE STRING "FreeRTOS config file" FORCE)
 
 add_subdirectory(Source)
 
